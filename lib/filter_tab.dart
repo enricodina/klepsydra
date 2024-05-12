@@ -29,7 +29,7 @@ class _FilterTabState extends State<FilterTab> {
                   } else {
                     // Sort the data in decreasing order
                     setState(() {
-                      _apiData.sort((a, b) => a[0].compareTo(b[0]));
+                      _apiData.sort((a, b) => a[1].compareTo(b[1]));
                     });
                   }
                 },
